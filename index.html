@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIFLIX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cabecalho">
+        <img class="logo" src="imagem/logo.png" />
+
+        <div class="links">
+            <a href="#">Categorias</a>
+            <a href="#">Filmes</a>
+            <a href="#">Series</a>
+        </div>
+    </div>
+
+    <section>
+        <div class="banner">
+            <img class="banner_imagem" src="imagem/7.png" alt="Banner Imagem">
+
+            <p class="titulo">Tokyo Revenger</p>
+            <p class="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit suscipit
+                molestias similique cupiditate! Reiciendis quidem cumque quasi, nisi ipsum eum, porro placeat asperiores
+                quisquam earum, voluptatem saepe consequuntur ipsam.</p>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="filmes">
+            <span class="titulo_top">Filmes</span>
+            <div class="card" onclick="mostrarAlerta('Flash')">
+                <p class="titulo_card">Flash</p>
+                <img class="banner_card" src="imagem/5.png" alt="Banner Imagem">
+            </div>
+
+            <div class="card" onclick="mostrarAlerta('Anaconda')">
+                <p class="titulo_card">Anaconda</p>
+                <img class="banner_card" src="imagem/6.jfif" alt="Banner Imagem">
+            </div>
+            <div class="card" onclick="mostrarAlerta('Boku no Hero')">
+                <p class="titulo_card">Boku no Hero</p>
+                <img class="banner_card" src="imagem/3.jpg" alt="Banner Imagem">
+            </div>
+            <div class="card" onclick="mostrarAlerta('Batman vs Superman')">
+                <p class="titulo_card">Batman vs Superman</p>
+                <img class="banner_card" src="imagem/8.jpg" alt="Banner Imagem">
+            </div>
+        </div>
+
+        <div class="filmes">
+            <span class="titulo_top">Séries</span>
+            <div class="card" onclick="mostrarAlerta('Teen Wolf')">
+                <p class="titulo_card">Teen Wolf</p>
+                <img class="banner_card" src="imagem/1.png" alt="Banner Imagem">
+            </div>
+            <div class="card" onclick="mostrarAlerta('Cobra Kai')">
+                <p class="titulo_card">Cobra Kai</p>
+                <img class="banner_card" src="imagem/2.png" alt="Banner Imagem">
+            </div>
+            <div class="card" onclick="mostrarAlerta('Tokyo Revenger')">
+                <p class="titulo_card">Tokyo Revenger</p>
+                <img class="banner_card" src="imagem/7.png" alt="Banner Imagem">
+            </div>
+            <div class="card" onclick="mostrarAlerta('Spider Man')">
+                <p class="titulo_card">Spider Man</p>
+                <img class="banner_card" src="imagem/9.png" alt="Banner Imagem">
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="item-rodape">
+            <a>Dúvidas Ligue 3213213213</a>
+            <a>Perguntas frequentes</a>
+            <a>Formas de assistir</a>
+            <a>So na AIFLIX</a>
+        </div>
+
+        <div class="item-rodape">
+            <a>Central de Ajuda</a>
+            <a>Carreiras</a>
+            <a>Termos de Uso</a>
+        </div>
+
+        <div class="item-rodape">
+            <a>Contatos</a>
+            <div class="social">
+                <img class="icone_social" src="imagem/im1.png" alt="Banner Imagem">
+                <img class="icone_social" src="imagem/im2.png" alt="Banner Imagem">
+                <img class="icone_social" src="imagem/im3.png" alt="Banner Imagem">
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
